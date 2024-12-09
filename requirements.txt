@@ -1,6 +1,5 @@
 uvicorn
 fastapi
-pickle
 numpy
 pandas
 CORSMiddleware
