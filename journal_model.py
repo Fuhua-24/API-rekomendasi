@@ -7,7 +7,7 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-jurnal = pd.read_csv("datajurnalnew.csv",sep=";")
+jurnal = pd.read_csv('datajurnalnew.csv',sep=";")
 
 def clean_title(title):
   re.sub("[^a-zA-Z0-9 ]", "", title)
